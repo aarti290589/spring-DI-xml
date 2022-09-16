@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+          <bean id ="smartKitchen1" class="com.spring.dependency_injection.di_by_xml.service.impl.SmartStoveService"/>
+        <bean id ="smartClient1" class="com.spring.dependency_injection.di_by_xml.client.impl.SmartStoveClient"/>
+          <bean id ="smartKitchen2" class="com.spring.dependency_injection.di_by_xml.service.impl.SmartOvenService"/>
+        <bean id ="smartClient2" class="com.spring.dependency_injection.di_by_xml.client.impl.SmartOvenClient"/>
+        <bean id ="smartKitchen3" class="com.spring.dependency_injection.di_by_xml.service.impl.SmartWaterService"/>
+         <bean id ="smartClient3" class="com.spring.dependency_injection.di_by_xml.client.impl.SmartWaterClient"/>
+        </beans>
+        
